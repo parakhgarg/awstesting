@@ -81,5 +81,6 @@ test:
 production:
   <<: *default
   database: awstesting_production
+  host: localhost
   username: awstesting
   password: awstesting
